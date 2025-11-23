@@ -1,70 +1,126 @@
-# Getting Started with Create React App
+📚 BookFlow – Online Book Discovery & Shopping UI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A clean, responsive React.js web application for browsing books, viewing details, searching/filtering, and managing a shopping cart.
+Built as part of CSCI426: Advanced Web Programming — Department of Computer Science & Information Technology.
 
-## Available Scripts
+📝 Project Description
 
-In the project directory, you can run:
+BookFlow is a frontend bookstore interface designed to demonstrate modern web development principles.
+The application provides a smooth browsing experience with:
 
-### `npm start`
+client-side routing
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+reusable components
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+responsive UI
 
-### `npm test`
+dynamic book detail pages
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+global cart state using Context API
 
-### `npm run build`
+The goal is to apply React.js, Tailwind CSS, and version control best practices to build a real-world, functional web interface.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+✨ Features
+🔍 Smart Search & Filter
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Search books by title or author, and filter by category.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+📘 Dynamic Book Pages
 
-### `npm run eject`
+Each book has its own details page with cover, description, and pricing.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+🛒 Cart System
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Add, remove, update quantities — the total updates automatically.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+📱 Fully Responsive
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Optimized for desktop, tablet, and mobile using Tailwind utilities.
 
-## Learn More
+🧩 Clean Component Structure
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Codebase organized into components, pages, context, and data modules.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+🛠️ Technologies Used
 
-### Code Splitting
+React.js – Frontend library
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+React Router – Navigation
 
-### Analyzing the Bundle Size
+Tailwind CSS – Styling
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Context API – Global state
 
-### Making a Progressive Web App
+Node.js + npm – Development environment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Unsplash – Book cover images
 
-### Advanced Configuration
+📦 Installation & Setup
+✔️ Requirements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Node.js v16+
 
-### Deployment
+npm (comes with Node.js)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+✔️ Steps
 
-### `npm run build` fails to minify
+Clone the repository:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+git clone https://github.com/GhassanT21/BookFlow.git
+
+
+Enter the folder:
+
+cd BookFlow
+
+
+Install dependencies:
+
+npm install
+
+
+Start the development server:
+
+npm start
+
+
+Open in browser:
+
+http://localhost:3000
+
+🌐 Live Deployment
+
+The deployed project is available at:
+
+👉 https://book-flow-ruby.vercel.app/
+
+📸 Screenshots
+
+🔵 Home Page
+![Home Page](https://github.com/GhassanT21/BookFlow/blob/main/Home.png?raw=true)
+
+🔵 Shopping Cart
+![Cart Page](https://github.com/GhassanT21/BookFlow/blob/main/cart.png?raw=true)
+
+🔵 Features Page
+![Features Page](https://github.com/GhassanT21/BookFlow/blob/main/Features.png?raw=true)
+
+🔵 About Page
+![About Page](https://github.com/GhassanT21/BookFlow/blob/main/About.png?raw=true)
+
+🔵 Contact Page
+![Contact Page](https://github.com/GhassanT21/BookFlow/blob/main/Contact%20us.png?raw=true)
+
+👤 Developer
+
+Ghassan Termsani
+Student – CSCI426
+
+🎓 Course Information  
+
+Course: CSCI426 – Advanced Web Programming
+Academic Year: 2024–2025
+
+© License
+
+© 2025 BookFlow – Educational Projectoting
