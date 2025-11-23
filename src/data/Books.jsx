@@ -25,7 +25,7 @@ export const books = [
     author: "James Clear",
     price: 18.0,
     category: "Self-help",
-    cover: "https://images.unsplash.com/photo-1519682333058-bcdefa7f0d5b?q=80&w=600",
+    cover: "https://images.unsplash.com/photo-1553729784-e91953dec042?q=80&w=600&auto=format&fit=crop",
     description:
       "Small changes that deliver remarkable results through habit building and systems thinking.",
   },
@@ -35,7 +35,7 @@ export const books = [
     author: "Tara Westover",
     price: 15.75,
     category: "Memoir",
-    cover: "https://images.unsplash.com/photo-1528207776546-365bb3ee1df0?q=80&w=600",
+    cover: "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?q=80&w=600&auto=format&fit=crop",
     description:
       "A memoir about the transformative power of education and resilience.",
   },
