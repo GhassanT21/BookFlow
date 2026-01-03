@@ -129,6 +129,12 @@ Admin access is separate from normal users.
 ![alt text](<Book details.png>)
 
 
+🌐 Backend Deployment
+
+The backend API is deployed on Railway and publicly accessible at:
+
+https://bookflow-production.up.railway.app
+
 
 🎓 Course Information
 
